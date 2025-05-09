@@ -1,0 +1,1 @@
+![[lap-lich-cpu-2.png]]
