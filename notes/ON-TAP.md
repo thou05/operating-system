@@ -2,36 +2,36 @@ Created: 202505080158
 Tags: 
 
 ## Chương 1 + 2. Tổng quan, cấu trúc
-#### 1. Hệ điều hành là gì?
+### 1. Hệ điều hành là gì?
 Hệ điều hành là phần mềm hệ thống trung gian giữa người dùng và hệ thống phần cứng
 
-#### 2. Hệ điều hành có các chức năng gì? Quản lý thiết bị, quản lý tiến trình và tài nguyên, quản lý bộ nhớ và quản lý file.
+### 2. Hệ điều hành có các chức năng gì? Quản lý thiết bị, quản lý tiến trình và tài nguyên, quản lý bộ nhớ và quản lý file.
 
-#### 3. Tài nguyên hệ thống gồm những gì?
-
-
-
-#### 4. Hệ điều hành đơn, đa nhiệm? HĐH thời gian thực? Hệ điều hành tập trung?
+### 3. Tài nguyên hệ thống gồm những gì?
 
 
-#### 5. Các tính chất (yếu tố) của HĐH: hiệu suất, bảo vệ và an ninh, tính chính xác, khả năng bảo trì, thương mại, chuẩn và hệ thống mở
+
+### 4. Hệ điều hành đơn, đa nhiệm? HĐH thời gian thực? Hệ điều hành tập trung?
 
 
-#### 6. Cấu trúc phân lớp của HĐH: ý nghĩa, lời gọi hệ thống là gì, hoạt động thế nào?
+### 5. Các tính chất (yếu tố) của HĐH: hiệu suất, bảo vệ và an ninh, tính chính xác, khả năng bảo trì, thương mại, chuẩn và hệ thống mở
+
+
+### 6. Cấu trúc phân lớp của HĐH: ý nghĩa, lời gọi hệ thống là gì, hoạt động thế nào?
 - lời gọi hệ thống là giao diện lập trình đến các dịch vụ hệ thống được OS cung cấp
 
 ## Chương 3. Quản lý tiến trình
-#### 1. Định nghĩa tiến trình
+### 1. Định nghĩa tiến trình
 Tiến trình là 1 chương trình đang được thực thi
 
-#### 2. Các trạng thái của tiến trình
+### 2. Các trạng thái của tiến trình
 - New
 - Ready
 - Running
 - Waiting
 - Terminated
 	
-#### 3. Khối điều khiển tiến trình (PCB)
+### 3. Khối điều khiển tiến trình (PCB)
 - Process Control Block - PCB
 - Là cấu trúc dữ liệu lưu trữ thông tin của tiến trình
 - Bao gồm
@@ -46,21 +46,21 @@ Tiến trình là 1 chương trình đang được thực thi
 - PCB được lưu trong bộ nhớ trong và có thể nằm ở những vị trí khác nhau
 - HDH sd bảng tiến trình chứa con trỏ tới PCB
 	
-#### 4. Các kiểu tiến trình: độc lập, hợp tác, song song, tuần tự
+### 4. Các kiểu tiến trình: độc lập, hợp tác, song song, tuần tự
 	
-#### 5. Tiến trình cha, con, các tiến trình cha con dùng chung cái gì?
-#### 6. Ngữ cảnh tiến trình là gì, gồm những gì? chứa giá trị các thanh ghi,
+### 5. Tiến trình cha, con, các tiến trình cha con dùng chung cái gì?
+### 6. Ngữ cảnh tiến trình là gì, gồm những gì? chứa giá trị các thanh ghi,
 trạng thái tiến trình và thông tin quản lý bộ nhớ
-#### 7. Nhiệm vụ của bộ điều phối, bộ phân phối
-#### 8. Giờ CPU là gì? (là thời gian mà CPU phục vụ cho tiến trình hoạt động)
-#### 9. Các trạng thái của tiến trình liên quan đến giờ CPU (ready, running, waiting)
-#### 10.Khái niệm lập lịch CPU
-#### 11.Các thuật toán lập lịch một hàng đợi
+### 7. Nhiệm vụ của bộ điều phối, bộ phân phối
+### 8. Giờ CPU là gì? (là thời gian mà CPU phục vụ cho tiến trình hoạt động)
+### 9. Các trạng thái của tiến trình liên quan đến giờ CPU (ready, running, waiting)
+### 10.Khái niệm lập lịch CPU
+### 11.Các thuật toán lập lịch một hàng đợi
 - FCFS
 - SJN
 - SRN
 - RR
-#### 12.Lập lịch nhiều hàng đợi (MLQ, MLFQ)
+### 12.Lập lịch nhiều hàng đợi (MLQ, MLFQ)
 
 ## Chương 4. Đồng bộ tiến trình
 
