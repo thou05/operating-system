@@ -17,7 +17,7 @@ Bế tắc xảy ra khi 4 đk sau ĐỒNG THỜI diễn ra
 ![](../img/do-thi-phan-phoi-tai-nguyen.png)
 
 ## Các phương pháp xử lý bế tắc
-Sử dụng các phương thức phòng hoặc tránh bế tắc nhằm đảm bảo hệ thống không bao
+#### Sử dụng các phương thức phòng hoặc tránh bế tắc nhằm đảm bảo hệ thống không bao
 giờ vào trạng thái bế tắc
 - C1: Loại bỏ 1 trong 4 đk cho phép bế tắc
 	- Loại trừ lẫn nhau: cần thỏa mãn đối với tài nguyên KHÔNG cho phép chia sẻ
@@ -41,11 +41,9 @@ giờ vào trạng thái bế tắc
 	- Sd thuật toán ktra trạng thái cấp phát tài nguyên để đảm bảo không có vòng tròn chờ đợi
 	- Trạng thái cấp phát tài nguyên là số lượng tài nguyên có sẵn, số lượng tài nguyên đang sd và số lượng tài nguyên được yc bởi các tiến trình
 
+#### Cho phép hệ thống vào trạng thái bế tắc, phát hiện và khôi phục lại
 
-
-Cho phép hệ thống vào trạng thái bế tắc, phát hiện và khôi phục lại
-
-Bỏ qua và giả định rằng bế tắc không bao giờ xảy ra(hầu hết các HDH chọn cách thức này như linux, windows)
+#### Bỏ qua và giả định rằng bế tắc không bao giờ xảy ra(hầu hết các HDH chọn cách thức này như linux, windows)
 
 
 ## Khôi phục khi bế tắc xảy ra
