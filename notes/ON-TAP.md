@@ -52,8 +52,10 @@ Tiến trình là 1 chương trình đang được thực thi
 ### 6. Ngữ cảnh tiến trình là gì, gồm những gì? chứa giá trị các thanh ghi,
 trạng thái tiến trình và thông tin quản lý bộ nhớ
 ### 7. Nhiệm vụ của bộ điều phối, bộ phân phối
-### 8. Giờ CPU là gì? (là thời gian mà CPU phục vụ cho tiến trình hoạt động)
-### 9. Các trạng thái của tiến trình liên quan đến giờ CPU (ready, running, waiting)
+### 8. Giờ CPU là gì? 
+là thời gian mà CPU phục vụ cho tiến trình hoạt động
+### 9. Các trạng thái của tiến trình liên quan đến giờ CPU 
+ready, running, waiting
 ### 10.Khái niệm lập lịch CPU
 ### 11.Các thuật toán lập lịch một hàng đợi
 - FCFS
